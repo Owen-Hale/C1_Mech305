@@ -46,4 +46,3 @@ units = "in"
 func = x**4 - 16*x**3 + 1.44*x**2 + 1024*x - 4096
 root, steps = newton_raphson_auto(func, x, x0=1.0)
 print(f"Root approximation: {root:.8f}", units)
-#print("Iterations:", steps)
